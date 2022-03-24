@@ -1,0 +1,201 @@
+body {
+	/*background:linear-gradient(royalblue20%,#f2d027 40%,dimgrey 40%)*/ ;
+	/*background-color: #f2d027;*/
+	background-image: url('bg3.jpg');
+}
+
+/* topo */
+
+.box {
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+header {
+	background-color: royalblue;
+	padding: 20px;
+	text-align: center;
+}
+
+header div h1 {
+	display: inline-block;
+	/*margin-left: 460px;*/
+}
+
+h1 img {
+	width: 250px;
+	transition: 0.8s;
+}
+
+h1 img:hover{
+	border: 1px outset #f2d027;
+	border-radius: 10px;
+}
+
+
+/* cabeçario */
+
+
+nav {
+	display: inline-block;
+	padding: 20px;
+	margin-left: 450px;
+	vertical-align: top;
+	position: static;
+	/*margin-left: 150px;*/
+	text-align: right;
+}
+
+.registro {
+	display: inline-block;
+	margin: 10px;
+	padding-top: 3px;
+	border: 2px outset royalblue;
+	border-radius: 10px;
+}
+
+.registro a {
+	color: #f2d027;
+	font-size: 18px;
+	font-family: fantasy;
+	text-decoration: none;
+	padding: 10px;
+	transition: 0.5s;
+
+
+}
+.registro a:hover {
+	font-size: 20px;
+}
+
+
+/* meio*/
+
+main {
+	background-color: #f2d027;
+	padding: 30px;
+}
+.topic {
+	display: block;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+	font-family: serif;
+	
+}
+
+.content {
+	font-size: 20px;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+.time {
+	font-size: 20px;
+	font-family: serif;
+	padding-top: 10px;
+
+}
+
+.dev {
+	padding-top: 15px;
+	display: block;
+	position: relative;
+	width: 250px;
+	margin: 0 auto;
+	transition: 0.5s;
+	
+}
+
+.dev:hover {
+	transform: translate(5px);
+}
+
+.icones {
+	margin-top: 10px;
+	text-align: center;
+}
+.ico {
+	display: inline-block;
+	padding: 10px;
+}
+.ico a img {
+	padding: 5px;
+	width: 30px;
+	transition: 0.8s;
+}
+
+#insta img:hover {
+	border: 1px outset #d726e0;
+	border-radius: 10px;
+
+}
+
+#wpp img:hover {
+	border: 1px inset limegreen;
+	border-radius: 10px;
+}
+
+#fc img:hover {
+	border: 1px outset royalblue;
+	border-radius: 10px;
+
+}
+
+/* rodapé */
+
+footer {
+	padding: 20px;
+	background-color: dimgrey;
+}
+.contatos a {
+	text-decoration: none;
+}
+.copyright {
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 13px;
+	text-align: center;
+
+}
+.contatos {
+	text-align: center;
+	font-size: 13px;
+	color: ghostwhite;
+}
+.contatos a:hover{
+	text-decoration: underline;
+}
+/* port para mobile */
+
+@media screen and (max-width: 480px) {
+	.box {
+		width: 480px;
+		margin: 0 auto;
+	}
+
+	header{
+		width: 100%;
+		padding: 0px;
+	}
+	footer {
+		width: 91.5%;
+		padding-top: 20px;
+	}
+
+	header div h1 {
+		margin-left: 0px;
+	}
+	nav {
+		display: inline-block;
+		position: static;
+		margin-left: 0px;
+		padding: 20px;
+	}
+
+	body {
+		width: 100%;
+	}
+}
