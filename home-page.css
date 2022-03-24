@@ -1,6 +1,6 @@
 body {
 	/*	background:linear-gradient(royalblue 31.7%,#f2d027 55.7%,dimgrey 12.6%)*/
-	background:linear-gradient(royalblue 31.6%,#f2d027 30%););
+	background:linear-gradient(royalblue 31.6%,#f2d027 30%);
 	
 
 
@@ -50,6 +50,7 @@ nav {
 	display: inline-block;
 	padding: 20px;
 	margin-left: 450px;
+	margin-top: 10px;
 	vertical-align: top;
 	position: static;
 	/*margin-left: 150px;*/
@@ -102,6 +103,7 @@ main {
 }
 
 .time {
+	margin-left: 20px;
 	font-size: 20px;
 	font-family: serif;
 	padding-top: 10px;
@@ -110,11 +112,12 @@ main {
 
 .dev {
 	padding-top: 15px;
+	/*padding-left: 15px;*/
 	display: block;
 	position: relative;
 	width: 250px;
 	margin: 0 auto;
-	transition: 0.5s;
+	transition: 0.9s;
 	
 }
 
@@ -124,6 +127,7 @@ main {
 
 .icones {
 	margin-top: 10px;
+	margin-right: 25px;
 	text-align: center;
 }
 .ico {
@@ -133,22 +137,22 @@ main {
 .ico a img {
 	padding: 5px;
 	width: 30px;
-	transition: 0.8s;
+	transition: 0.5s;
 }
 
 #insta img:hover {
-	border: 1px outset #d726e0;
+	border: 0.5px outset #d726e0;
 	border-radius: 10px;
 
 }
 
 #wpp img:hover {
-	border: 1px inset limegreen;
+	border: 0.5px inset limegreen;
 	border-radius: 10px;
 }
 
 #fc img:hover {
-	border: 1px outset royalblue;
+	border: 0.5px outset royalblue;
 	border-radius: 10px;
 
 }
@@ -157,7 +161,7 @@ main {
 
 footer {
 	padding: 20px;
-	margin-left: -104px;
+	margin-left: -105px;
 	margin-right: -104px;
 	background-color: dimgrey;
 }
@@ -210,6 +214,7 @@ footer {
 	nav {
 		display: inline-block;
 		position: static;
+		margin-top: 0;
 		margin-left: 0px;
 		padding: 20px;
 	}
