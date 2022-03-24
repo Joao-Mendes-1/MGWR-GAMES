@@ -1,0 +1,91 @@
+.box {
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+header {
+	background-color: royalblue;
+	padding: 20px;
+	text-align: center;
+}
+
+header div h1 {
+	display: inline-block;
+	/*margin-left: 460px;*/
+}
+
+h1 img {
+	width: 250px;
+	transition: 0.8s;
+}
+
+h1 img:hover{
+	border: 0.1px outset #f2d027;
+	border-radius: 10px;
+}
+
+
+/* cabeçario */
+
+
+nav {
+	display: inline-block;
+	padding: 20px;
+	margin-left: 450px;
+	margin-top: 10px;
+	vertical-align: top;
+	position: static;
+	/*margin-left: 150px;*/
+	text-align: right;
+}
+
+.nav {
+	display: inline-block;
+	margin: 10px;
+	padding-top: 3px;
+	border: 2px outset royalblue;
+	border-radius: 10px;
+}
+
+.nav a {
+	color: #f2d027;
+	font-size: 18px;
+	font-family: fantasy;
+	text-decoration: none;
+	padding: 10px;
+	transition: 0.5s;
+
+
+}
+.nav a:hover {
+	font-size: 20px;
+}
+
+
+/* rodapé */
+
+footer {
+	padding: 20px;
+	margin-left: -105px;
+	margin-right: -104px;
+	background-color: dimgrey;
+}
+.contatos a {
+	text-decoration: none;
+}
+.copyright {
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 13px;
+	text-align: center;
+
+}
+.contatos {
+	text-align: center;
+	font-size: 13px;
+	color: ghostwhite;
+}
+.contatos a:hover{
+	text-decoration: underline;
+}
