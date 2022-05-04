@@ -2,21 +2,21 @@ body {
 	/*width: 1140px;
 	margin: 0 auto;*/
 	background-image: url(bg3.jpg);
+	/*width: 1140px;
+	margin: 0 auto;*/
+
+}
+/*.box {
 	width: 1140px;
 	margin: 0 auto;
 
-}
-.box {
-	width: 1140px;
-	margin: 0 auto;
-
-}
+}*/
 
 /* cabeçario */
 
 header {
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 	background-color: royalblue;
 	padding: 40px;
 	/*margin-top: -8px;*/
@@ -74,8 +74,8 @@ nav {
 /*meio*/
 
 main {
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 	background-color: #f2d027;
 	padding: 40px;
 	
@@ -148,7 +148,7 @@ form div input:hover {
 }
 
 .propaganda img:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 
@@ -159,8 +159,8 @@ footer {
 	padding: 40px;
 	margin-bottom: -7.5px;
 	background-color: dimgrey;
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 }
 .contatos a {
 	text-decoration: none;

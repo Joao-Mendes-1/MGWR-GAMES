@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="registro.css">
+	<script type="text/javascript" src="registro.js"></script>
 	<title>Cadastre-se</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
 			</nav>
 		</div>
 	</header>
-	<main>
+	<main>	
 		<form>
 			<div>
 				<label for="nome" class="texto-padrao">Nome de usuário</label>
@@ -32,7 +33,7 @@
 			<p>
 				<label><input type="checkbox" id="termo" checked>Aceita os termos de condições?</label>
 			</p>	
-			<input type="submit" value="Cadastrar-se" id="enviar">
+			<input type="submit" value="Cadastrar-se" id="enviar" onsubmit="input-padrao">
 		</form>
 		
 		<p class="propaganda"><img src="fundo.png"></p>

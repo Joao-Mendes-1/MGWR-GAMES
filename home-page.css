@@ -15,18 +15,18 @@ body {
 
 /* topo */
 
-.box {
+/*.box {
 	width: 1140px;
 	margin: 0 auto;
 
-}
+}*/
 
 header {
 	background-color: royalblue;
 	padding: 20px;
 	text-align: center;
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 }
 
 header div h1 {
@@ -87,8 +87,8 @@ nav {
 main {
 	background-color: #f2d027;
 	padding: 30px;
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 }
 .topic {
 	display: block;
@@ -165,8 +165,8 @@ main {
 
 footer {
 	padding: 20px;
-	margin-left: -105px;
-	margin-right: -104px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 	background-color: dimgrey;
 }
 .contatos a {
