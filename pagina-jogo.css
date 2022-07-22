@@ -113,3 +113,50 @@ footer {
 .contatos a:hover{
 	text-decoration: underline;
 }
+
+/* port para mobile */
+
+@media screen and (max-width: 480px) {
+	.box {
+		width: 480px;
+		margin: 0 auto;
+	}
+
+	header{
+		width: 100%;
+		padding: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	main {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	footer {
+		width: 91.5%;
+		padding-top: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	header div h1 {
+		margin-left: 0px;
+	}
+
+	h1 img:hover{
+	border: 20px outset #f2d027;
+	border-radius: 10px;
+	}
+
+	nav {
+		display: inline-block;
+		position: static;
+		margin-top: 0;
+		margin-left: 0px;
+		padding: 20px;
+	}
+
+	body {
+		width: 100%;
+	}
+}
