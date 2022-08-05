@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="registro.css">
+	
+	<title>Cadastre-se</title>
+</head>
+<body>
+	<header>
+		<div>
+			<h1><img src="logo_mgwr.png" class="logo"></h1>
+			<nav>
+				<p class="nav"><a href="pagina-jogo.html">Jogos</a></p>
+				<p class="nav"><a href="home-page.html">Página principal</a></p>
+			</nav>
+		</div>
+	</header>
+	<main>	
+		<form action="" id="form">
+			<div>
+				<label for="nome" class="texto-padrao">Nome de usuário</label>
+				<input type="text" id="nome" class="input-padrao" required>
+				<label for="email" class="texto-padrao">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+				<label for="senha" class="texto-padrao">Senha</label>
+				<input type="password" id="senha" class="input-padrao" required>
+
+			</div>
+			<label><input type="checkbox" class="checkbox" checked>Gostaria de receber novidades da nossa página pelo Email?</label>
+			<p>
+				<label><input type="checkbox" id="termo" checked>Aceita os termos de condições?</label>
+			</p>	
+			<input type="submit" value="Cadastrar-se" id="enviar">
+		</form>
+		<div class="propaganda">
+			<p class="propaganda"><img src="fundo.png"></p>
+		</div>
+		
+		
+
+	</main>
+	<footer>
+			<p class="copyright">&copy; Copyright MGWR Games - 2022</p>
+			<p class="contatos"><a class="contatos" href="https://api.whatsapp.com/send?phone=5513982054507&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20jogo%20%22Advinha%22"> Fale conosco </a></p>
+	</footer>
+<script type="text/javascript" src="registro.js"></script>
+</body>
+</html>

@@ -138,16 +138,16 @@ form div input:hover {
 
 .propaganda {
 	position: absolute;
-	left: 880px;
-	top: 395px;
+	top: 65%;
+	left: 70%;
 }
 
-.propaganda img {
+.propaganda p img {
 	width: 350px;
 	transition: 1s;
 }
 
-.propaganda img:hover {
+.propaganda p img:hover {
 	transform: scale(1.1);
 }
 
@@ -273,4 +273,19 @@ footer {
 		margin-left: 150px;
 		width: 220px;
 	}
+}
+
+@media screen and (min-width: 1920px) {
+
+	.propaganda {
+		position: absolute;
+		top: 45%;
+		left: 70%;
+	}
+
+	.propaganda p img {
+		width: 350px;
+		transition: 1s;
+	}
+
 }

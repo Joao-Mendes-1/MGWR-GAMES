@@ -1,12 +1,10 @@
-.box {
-	width: 1140px;
-	margin: 0 auto;
 
+body{
 }
 
 header {
 	background-color: royalblue;
-	padding: 20px;
+	padding: 35px;
 	text-align: center;
 }
 
@@ -24,34 +22,7 @@ h1 img:hover{
 	border: 0.1px outset #f2d027;
 	border-radius: 10px;
 }
-
-/*main*/
-main{
-	
-	padding: 50px;
-	background-color: #f2d027;
-
-}
-.div-cartaz-jogos{
-	text-align: center;
-}
-
-.cartaz-jogos{
-	margin: 20px;
-	border-radius: 10px;
-	width: 13%;
-	transition: 1s;
-	opacity: 0.7;
-}
-.cartaz-jogos:hover{
-	transform: scale(1.2);
-	border-radius: 30px;
-	opacity: 1.0;
-}
-
-
 /* cabeçario */
-
 
 nav {
 	display: inline-block;
@@ -86,11 +57,38 @@ nav {
 	font-size: 20px;
 }
 
+/*main*/
+main{
+	padding: 70px;
+	background-color: #f2d027;
+
+}
+.div-cartaz-jogos{
+	background-color: #f2d027;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.cartaz-jogos{
+	margin: 20px;
+	border-radius: 10px;
+	width: 13%;
+	transition: 1s;
+	opacity: 0.7;
+}
+.cartaz-jogos:hover{
+	transform: scale(1.2);
+	border-radius: 30px;
+	opacity: 1.0;
+}
+
 
 /* rodapé */
 
 footer {
-	padding: 20px;
+	/*margin-top: 30px;*/
+	padding: 65px;
 	/*margin-left: -105px;
 	margin-right: -104px;*/
 	background-color: dimgrey;
