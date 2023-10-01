@@ -1,11 +1,32 @@
+body {
+	/*	background:linear-gradient(royalblue 31.7%,#f2d027 55.7%,dimgrey 12.6%)*/
+	/*background:linear-gradient(royalblue 31.6%,#f2d027 30%);*/
+	
 
-body{
+
+
+  	/*rgba(65, 105, 225, 1) 0%,
+  	rgba(242, 201, 3, 1) 35%,
+  	rgba(105, 105, 105, 1) 100%)*/
+	/*background-color: #f2d027;*/ 
+	/*background-image: url('bg3.jpg');*/
+
 }
+
+/* topo */
+
+/*.box {
+	width: 1140px;
+	margin: 0 auto;
+
+}*/
 
 header {
 	background-color: royalblue;
-	padding: 35px;
+	padding: 20px;
 	text-align: center;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
 }
 
 header div h1 {
@@ -22,7 +43,10 @@ h1 img:hover{
 	border: 0.1px outset #f2d027;
 	border-radius: 10px;
 }
+
+
 /* cabeçario */
+
 
 nav {
 	display: inline-block;
@@ -35,7 +59,7 @@ nav {
 	text-align: right;
 }
 
-.nav {
+.button {
 	display: inline-block;
 	margin: 10px;
 	padding-top: 3px;
@@ -43,7 +67,7 @@ nav {
 	border-radius: 10px;
 }
 
-.nav a {
+.button a {
 	color: #f2d027;
 	font-size: 18px;
 	font-family: fantasy;
@@ -53,42 +77,94 @@ nav {
 
 
 }
-.nav a:hover {
+.button a:hover {
 	font-size: 20px;
 }
 
-/*main*/
-main{
-	padding: 70px;
+
+/* meio*/
+
+main {
 	background-color: #f2d027;
+	padding: 30px;
+	/*margin-left: -105px;
+	margin-right: -104px;*/
+}
+.topic {
+	display: block;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	padding: 20px;
+	font-family: serif;
+	
+}
+
+.content {
+	font-size: 20px;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+.time {
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: serif;
+	padding-top: 10px;
 
 }
-.div-cartaz-jogos{
-	background-color: #f2d027;
-	width: 100%;
-	display: inline-block;
+
+.dev {
+	padding-top: 15px;
+	/*padding-left: 15px;*/
+	display: block;
+	position: relative;
+	width: 250px;
+	margin: 0 auto;
+	transition: 0.9s;
+	
+}
+
+.dev:hover {
+	transform: translate(5px);
+}
+
+.icones {
+	margin-top: 10px;
+	margin-right: 25px;
 	text-align: center;
 }
+.ico {
+	display: inline-block;
+	padding: 10px;
+}
+.ico a img {
+	padding: 5px;
+	width: 30px;
+	transition: 0.5s;
+}
 
-.cartaz-jogos{
-	margin: 20px;
+#insta img:hover {
+	border: 0.5px outset #d726e0;
 	border-radius: 10px;
-	width: 13%;
-	transition: 1s;
-	opacity: 0.7;
-}
-.cartaz-jogos:hover{
-	transform: scale(1.2);
-	border-radius: 30px;
-	opacity: 1.0;
+
 }
 
+#wpp img:hover {
+	border: 0.5px inset limegreen;
+	border-radius: 10px;
+}
+
+#fc img:hover {
+	border: 0.5px outset royalblue;
+	border-radius: 10px;
+
+}
 
 /* rodapé */
 
 footer {
-	/*margin-top: 30px;*/
-	padding: 65px;
+	padding: 30px;
 	/*margin-left: -105px;
 	margin-right: -104px;*/
 	background-color: dimgrey;
@@ -111,7 +187,6 @@ footer {
 .contatos a:hover{
 	text-decoration: underline;
 }
-
 /* port para mobile */
 
 @media screen and (max-width: 480px) {

@@ -1,11 +1,4 @@
-body {
-	/*width: 1140px;
-	margin: 0 auto;*/
-	background-image: url(bg3.jpg);
-	/*width: 1140px;
-	margin: 0 auto;*/
 
-}
 /*.box {
 	width: 1140px;
 	margin: 0 auto;
@@ -95,7 +88,7 @@ form {
 	margin-left: 160px;
 }
 
- form div input {
+form div input {
 	background-color: #db3232;
 	color: white;
 	transition: 1s;
