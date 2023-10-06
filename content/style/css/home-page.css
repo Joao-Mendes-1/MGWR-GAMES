@@ -1,13 +1,14 @@
 body {
+	background-color:dimgrey ;
 	/*	background:linear-gradient(royalblue 31.7%,#f2d027 55.7%,dimgrey 12.6%)*/
 	/*background:linear-gradient(royalblue 31.6%,#f2d027 30%);*/
 	
 
 
 
-  	/*rgba(65, 105, 225, 1) 0%,
-  	rgba(242, 201, 3, 1) 35%,
-  	rgba(105, 105, 105, 1) 100%)*/
+/*rgba(65, 105, 225, 1) 0%,
+rgba(242, 201, 3, 1) 35%,
+rgba(105, 105, 105, 1) 100%)*/
 	/*background-color: #f2d027;*/ 
 	/*background-image: url('bg3.jpg');*/
 
