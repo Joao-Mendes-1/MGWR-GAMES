@@ -70,7 +70,8 @@ main {
 .iniciar-sessao h1 {
 	font-size: 25px;
 	text-transform: uppercase;
-	font-family: serif;
+	/*font-family: serif;*/
+	font-family: monospace;
 }
 
 .form{
@@ -95,16 +96,6 @@ main {
 	background-color: #df2b2b;
 }
 
-.texto-padrao {
-    opacity: 60%;
-    position: absolute;
-    display: inline;
-    margin-top: 25px;
-    margin-left: 10px;
-    font-family:'sans-serif';
-    font-size: 15px;
-}
-
 .input-padrao {
 	width: 40%;
 	margin: 10px 0;
@@ -121,7 +112,7 @@ main {
     padding: 15px;
 }
 #enviar {
-    font-family: fantasy;
+	font-family: monospace;
 	background:#db3232;
 	padding: 10px;
 	width: 60%;
@@ -136,11 +127,11 @@ main {
 }
 
 #cadastro {
-    font-family: fantasy;
+	font-family: monospace;
 	background: royalblue;
 	margin-top: 35px;
 	padding: 10px;
-	width: 40%;
+	width: 50%;
 	font-size: 20px;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -230,11 +221,7 @@ footer {
 		margin-left: 30px;
 		padding: 20px;
 	}
-	.texto-padrao {
-		font-size: 20px;
-		font-family: fantasy;
-	}
-
+	
 	.input-padrao {
 		width: 60%;
 		display: block;

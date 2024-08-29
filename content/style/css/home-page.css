@@ -60,25 +60,27 @@ nav {
 	text-align: right;
 }
 
-.button {
+.nav {
 	display: inline-block;
 	margin: 10px;
-	padding-top: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 	border: 2px outset royalblue;
 	border-radius: 10px;
 }
 
-.button a {
+.nav a {
 	color: #f2d027;
 	font-size: 18px;
-	font-family: fantasy;
+	/* font-family: fantasy; */
+	font-family: monospace;
 	text-decoration: none;
 	padding: 10px;
 	transition: 0.5s;
-
+	font-weight: bold;
 
 }
-.button a:hover {
+.nav a:hover {
 	font-size: 20px;
 }
 
@@ -101,9 +103,11 @@ main {
 	
 }
 
+
+
 .content {
 	font-size: 20px;
-	font-family: fantasy;
+	/* font-family: fantasy; */
 	font-style: italic;
 }
 
@@ -123,11 +127,14 @@ main {
 	width: 250px;
 	margin: 0 auto;
 	transition: 0.9s;
+	border-radius: 50px;
+
 	
 }
 
 .dev:hover {
 	transform: translate(5px);
+	border-radius: 30px;
 }
 
 .icones {
@@ -146,20 +153,16 @@ main {
 }
 
 #insta img:hover {
-	border: 0.5px outset #d726e0;
-	border-radius: 10px;
+	scale: 1.1;
 
 }
 
 #wpp img:hover {
-	border: 0.5px inset limegreen;
-	border-radius: 10px;
+	scale: 1.1;
 }
 
 #fc img:hover {
-	border: 0.5px outset royalblue;
-	border-radius: 10px;
-
+	scale: 1.1;
 }
 
 /* rodapé */
